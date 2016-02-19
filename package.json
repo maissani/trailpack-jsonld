@@ -1,0 +1,41 @@
+{
+  "name": "trailpack-jsonld",
+  "version": "0.0.1",
+  "description": "Data is messy and disconected, JSON-LD organize and connects it, creating a better Web. ",
+  "homepage": "https://github.com/maissani/trailpack-jsonld",
+  "author": "Mehdi Aissani <contact@mehdiaissani.com> (https://mehdiaissani.com)",
+  "files": [
+    "lib"
+  ],
+  "main": "index.js",
+  "keywords": [
+    "trailpack",
+    "trails",
+    "trailjs"
+  ],
+  "dependencies": {
+    "trailpack": "latest"
+  },
+  "devDependencies": {
+    "eslint": "^2.0.0-beta.1",
+    "eslint-config-trails": "^1.0.1",
+    "mocha": "^2.3"
+  },
+  "scripts": {
+    "test": "eslint . && mocha"
+  },
+  "engines": {
+    "node": ">= 4.0.0"
+  },
+  "eslintConfig": {
+    "extends": "trails"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maissani/trailpack-jsonld.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maissani/trailpack-jsonld/issues"
+  }
+}
