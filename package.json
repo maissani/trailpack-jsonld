@@ -14,7 +14,10 @@
     "trailjs"
   ],
   "dependencies": {
-    "trailpack": "latest"
+    "jsonld": "^0.4.5",
+    "lodash": "^4.5.0",
+    "trailpack": "latest",
+    "trails-service": "^1.0.0-alpha-1"
   },
   "devDependencies": {
     "eslint": "^2.0.0-beta.1",
