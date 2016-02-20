@@ -15,12 +15,15 @@ module.exports = class JsonldService extends Service {
   }
 
   setDictonary(dictionaryName){
-    if(!_.isString(dictionaryName)){
+    if (!_.isString(dictionaryName)) {
       dictionaryName = this.app.config.defaultDictonary
     }
     const config = this.app.config.jsonld
-    const dictionaryConfig =  _.pick(_.find(config.dictionaries, {name: dictionaryName}),['name','url'])
-    return this.dictionary
+    const dictionaryConfig =  _.pick(
+      _.find(config.dictionaries, {
+        name: dictionaryName
+      }), ['name','url'])
+    return dictionaryConfig
   }
 }
 
