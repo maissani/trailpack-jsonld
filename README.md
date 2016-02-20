@@ -17,15 +17,15 @@ With yo :
 
 ```
 npm install -g yo generator-trails
-yo trails:trailpack trailpack-srcdsrcon
+yo trails:trailpack trailpack-jsonld
 ```
 
 With npm (you will have to create config file manually) :
  
-`npm install --save trailpack-srcdsrcon`
+`npm install --save trailpack-jsonld`
 
 ## Configuration
-Enable SrcdsRcon
+Enable JsonLD
 ```js
 // config/main.js
 
@@ -34,7 +34,7 @@ Enable SrcdsRcon
     require('trailpack-jsonld')
   ],
 ```
-Check that srcds config is loaded on index.js
+Check that jsonld config is loaded on index.js
 ```js
 // config/index.js
 ...
