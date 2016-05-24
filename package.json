@@ -1,6 +1,6 @@
 {
   "name": "trailpack-jsonld",
-  "version": "0.0.2-alpha-2",
+  "version": "0.1.0",
   "description": "Data is messy and disconected, JSON-LD organize and connects it, creating a better Web. ",
   "homepage": "https://github.com/maissani/trailpack-jsonld",
   "author": "Mehdi Aissani <contact@mehdiaissani.com> (https://mehdiaissani.com)",
