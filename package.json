@@ -14,7 +14,7 @@
     "trailjs"
   ],
   "dependencies": {
-    "jsonld": "^0.4.5",
+    "jsonld": "^0.4.12",
     "lodash": "^4.13.1",
     "trailpack": "latest",
     "trails-service": "^1.0.0-alpha-1"
