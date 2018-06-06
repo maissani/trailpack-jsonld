@@ -1,4 +1,7 @@
 # trailpack-jsonld
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/maissani/trailpack-jsonld.svg)](https://greenkeeper.io/)
+
 [![Gitter][gitter-image]][gitter-url]
 [![NPM version][npm-image]][npm-url]
 [![NPM downloads][npm-download]][npm-url]
